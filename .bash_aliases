@@ -3,8 +3,9 @@ alias ll='ls -al'
 alias ..='cd ..'
 alias vi='vim'
 
+alias hc='pushd ~/projects/hearsay-chef/'
 alias f='pushd ~/projects/HearsayLabs/website/hearsaylabs.com/fanmgmt'
-alias dev='pushd ~/projects/HearsayLabs/dev/sgarrity'
+alias dev='pushd ~/projects/HearsayLabs/dev/adepue'
 
 alias apache_restart='sudo /etc/init.d/apache2 restart'
 
