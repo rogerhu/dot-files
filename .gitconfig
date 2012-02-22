@@ -1,0 +1,11 @@
+[user]
+        name = Adam DePue
+        email = adepue@hearsaycorp.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[push]
+        default = tracking
+[merge]
+        tool = emerge

@@ -15,3 +15,4 @@ link_file .bashrc
 link_file .screenrc
 link_file .lgtmrc
 link_file .vimrc
+link_file .gitconfig
