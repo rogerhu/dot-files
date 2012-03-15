@@ -16,3 +16,12 @@ alias frb='git fetch upstream && git rebase upstream/master'
 alias apache_restart='sudo /etc/init.d/apache2 restart'
 
 alias productivity='git log -p --since=yesterday --author=Steve>tmp;P=`grep ^+[^+] tmp|wc -l`;M=`grep ^-[^-] tmp|wc -l`; echo $P-.5*$M|bc;rm tmp'
+
+
+if [ -e ~/.screen/session-variables ]; then
+  alias ssh='source ~/.screen/session-variables; ssh'
+fi
+
+if [ -e ~/scratch.sh ]; then
+  alias screen='~/scratch.sh; screen'
+fi
