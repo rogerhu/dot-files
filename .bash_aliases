@@ -22,6 +22,10 @@ if [ -e ~/.screen/session-variables ]; then
   alias ssh='source ~/.screen/session-variables; ssh'
 fi
 
+if [ -e ~/.screen/session-variables ]; then
+  alias git='source ~/.screen/session-variables; git'
+fi
+
 if [ -e ~/scratch.sh ]; then
   alias screen='~/scratch.sh; screen'
 fi
