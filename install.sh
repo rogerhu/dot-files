@@ -13,7 +13,6 @@ function link_file {
 link_file .bash_aliases
 link_file .bashrc
 link_file .screenrc
-link_file .lgtmrc
 link_file .vimrc
 link_file .gitconfig
 link_file .profile
