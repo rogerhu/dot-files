@@ -9,7 +9,7 @@ alias hc='pushd ~/projects/hearsay-chef/'
 alias f='pushd ~/projects/HearsayLabs/website/hearsaylabs.com/fanmgmt'
 alias e='pushd ~/projects/HearsayLabs/external'
 alias dev='pushd ~/projects/HearsayLabs/dev/adepue'
-alias df='pushd ~/projects/adepue-dotfiles'
+alias adf='pushd ~/projects/adepue-dotfiles'
 
 alias frb='git fetch upstream && git rebase upstream/master'
 
