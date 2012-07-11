@@ -10,6 +10,7 @@ function link_file {
     ln -sf ${source} ${target}
 }
 
+link_file .bash_logout
 link_file .bash_aliases
 link_file .bashrc
 link_file .screenrc
