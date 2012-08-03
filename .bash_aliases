@@ -6,7 +6,7 @@ alias ....='cd ../../..'
 alias vi='vim'
 
 alias hc='pushd ~/projects/hearsay-chef/'
-alias f='pushd ~/projects/HearsayLabs/website/hearsaylabs.com/fanmgmt'
+alias f='pushd ~/projects/HearsayLabs/fanmgmt'
 alias e='pushd ~/projects/HearsayLabs/external'
 alias dev='pushd ~/projects/HearsayLabs/dev/adepue'
 alias adf='pushd ~/projects/adepue-dotfiles'
