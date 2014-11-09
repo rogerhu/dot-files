@@ -8,12 +8,9 @@ alias vi='vim'
 alias hc='pushd ~/projects/hearsay-chef/'
 alias f='pushd ~/projects/HearsayLabs/fanmgmt'
 alias e='pushd ~/projects/HearsayLabs/external'
-alias dev='pushd ~/projects/HearsayLabs/dev/adepue'
-alias adf='pushd ~/projects/adepue-dotfiles'
+alias rdf='pushd ~/projects/dot-files'
 
 alias frb='git fetch upstream && git rebase upstream/master'
-
-alias apache_restart='sudo /etc/init.d/apache2 restart'
 
 alias productivity='git log -p --since=yesterday --author=Steve>tmp;P=`grep ^+[^+] tmp|wc -l`;M=`grep ^-[^-] tmp|wc -l`; echo $P-.5*$M|bc;rm tmp'
 
